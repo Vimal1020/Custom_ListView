@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="#F8F809">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/leo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/image"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="-39dp"
+        android:text="Nation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h"
+        android:layout_alignLeft="@+id/s"
+        android:layout_marginLeft="-65dp"
+        android:layout_marginTop="0dp"
+        android:text="Salary(€)=" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_alignLeft="@+id/h"
+        android:layout_marginLeft="-72dp"
+        android:layout_marginTop="0dp"
+        android:text="Height(m)=" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/a"
+        android:layout_marginLeft="-36dp"
+        android:text="Age=" />
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="195dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-26dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/image"
+        android:paddingLeft="30dp"
+        android:text="Lionel Andrés Messi Cuccittini"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#00DDDD" />
+
+    <TextView
+        android:id="@+id/na"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/image"
+        android:paddingLeft="30dp"
+        android:text="Argentine"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:text="33"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/s"
+        android:text="70758000"
+        android:layout_below="@+id/h"
+        android:layout_alignParentRight="true"
+/>
+    <TextView
+        android:text="1.7"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_alignParentRight="true"
+        android:id="@+id/h"
+        />
+</RelativeLayout>
